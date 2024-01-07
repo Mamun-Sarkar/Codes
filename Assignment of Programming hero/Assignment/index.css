@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.banner-bg{
+       background-image: url(resources/Banner\ Image.png);
+       width: 100%;
+       height: 600px;
+       
+}
+.gradient-1{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 600px;
+    width: 100%;
+}
+
+.banner{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    color: white;
+    text-align: center;
+    width: 600px;
+}
+.banner-text{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.banner-head{
+    font-size: 70px;
+    font-weight: bold;
+}
+.section-one{
+    text-align: center;
+    margin-top: 100px;
+}
+.section-one--content{
+    font-size: 90px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 30px;
+}
+.section-one--text{
+    font-size: 25px;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section-one--head{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.section-two{
+    margin-top: 100px;
+    background-image: url(resources/Vectorrr.png);
+    width: 100%;
+    height: 600px;
+    color: white;
+    position: relative;
+}
+.gradient-2{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 600px;
+    width: 100%;
+}
+
+.section-two--left{
+    max-width: 600px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.section-two--right{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+.section-two--head{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-two--text{
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.section-two--btn{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    color: white;
+}
+.section-three{
+    margin-top: 100px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+}
+.section-three--content{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.section-three div{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+.section-three span{
+    color: red;
+    margin-right: 10px;
+}
+.section-three--btn{
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.section-four{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 50px;
+}
+
+.section-four--left-content{
+    font-size: 24px;
+    color: red;
+    font-weight: 500;
+}
+.section-four--left-head{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.section-four--left-text{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    
+}
+.section-four--right-head{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.section-four--right-text{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+}
+.section-four--center{
+    border: 30px solid transparent;
+    border-radius: 50%;
+    outline: 15px solid red;
+}
+.section-five{
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+.section-five--content{
+    font-size: 24px;
+    font-weight: 500;
+}
+.section-five--head{
+    font-size: 70px;
+    font-weight: bold;
+}
+.section-five--head span{
+    color: red;
+}
+.section-five--text{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    
+}
+.section-five-images{
+    margin-top: 150px;
+   max-width: 100%;
+    min-height: 600px;
+
+}
+.section-five--img1{
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.section-five--img2{
+    position: absolute;
+    bottom: 24%;
+    right: 0;
+}
+.section-five--img3{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+.section-five--img4{
+    position: absolute;
+    top: 40%;
+}
