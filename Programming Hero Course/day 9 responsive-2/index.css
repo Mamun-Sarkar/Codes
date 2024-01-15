@@ -1,0 +1,210 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #3a3a3a;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav >a{
+    font-size: 24px;
+    font-weight: 700;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav li{
+    list-style: none;
+    font-weight: 600;
+}
+
+.one{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.one-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 55%;
+}
+
+.one-head{
+    font-size: 52px;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+.one-text{
+    color: #3a3a3a;
+    font-weight: 600;
+}
+
+.one-btn{
+    
+    align-self: start;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 41px;
+ background: #E02C6D;
+ padding: 10px 24px;
+ color: white;
+ font-weight: 700;
+}
+
+.one-btn > p ,i{
+    color: white;
+}
+
+
+.one-right{
+    background-image: url(influencer-gear-main/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: unset;
+    align-items: center;
+    height: 480px;
+        width: 45%;
+    
+}
+
+.two{
+
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .img-1{
+    grid-area: img-1;
+}
+.img-2{
+    grid-area: img-2;
+}
+.img-3{
+    grid-area: img-3;
+}
+.img-4{
+    grid-area: img-4;
+}
+.img-5{
+    grid-area: img-5;
+}
+.img-6{
+    grid-area: img-6;
+}
+.img-7{
+    grid-area: img-7;
+} */
+
+
+.three{
+    margin-top: 100px;
+}
+.three-head{
+    font-size: 28px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.card{
+   
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.card-img{
+    width: 90%;
+    
+    margin: 10px auto;
+}
+.card-content{
+    width: 90%;
+    margin: 10px auto;
+}
+.card-head{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .one{
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+    .one-left{
+        width: 100%;
+        text-align: center;
+    }
+    .one-btn{
+        align-self: center;
+    }
+    .one-right{
+        width: 100%;
+    }
+    .one-right img{
+        width: 100%;
+    }
+    .two{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        
+        
+    }
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+
+}
