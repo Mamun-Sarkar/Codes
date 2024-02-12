@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="section-1">
+        <h1 class="head-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eaque.</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, maiores, cumque impedit distinctio dolor corporis incidunt nulla veritatis beatae numquam debitis perspiciatis asperiores minus iusto soluta ex. Necessitatibus nobis culpa minus labore molestiae quae rem accusantium error vitae qui, ut debitis! Sed, maxime reiciendis placeat repudiandae tempora corrupti dolorem repellendus!</p>
+        <p>Quibusdam laudantium optio dolorum nam, deserunt iusto sequi veritatis, necessitatibus aperiam reiciendis asperiores laboriosam? Nobis quis error, sed voluptate soluta ad aperiam molestias magni modi. Porro corrupti sint impedit odit expedita a maiores fugiat reprehenderit, incidunt, et ratione quo natus explicabo perferendis laudantium excepturi quis labore, accusantium odio iste animi.</p>
+        <p>Esse quos iure quasi quo obcaecati odit ratione magnam praesentium corporis assumenda cumque, culpa perspiciatis dolore sed velit reiciendis voluptates unde sunt doloremque delectus temporibus ipsa labore? Veritatis corrupti ullam voluptate, ipsam tempora, iste dignissimos quia ratione quasi expedita eius dolor! Cumque odit ut similique deserunt sunt unde itaque ratione.</p>
+        </section>
+        <textarea name="" id="textarea-1" cols="90" rows="10"></textarea>
+        <br>
+        <button id="button-1">Send Messege</button>
+   
+        
+    <script>
+        document.getElementById("button-1").addEventListener('click', function(){
+
+           const textarea =   document.getElementById("textarea-1")
+
+           const area = textarea.value
+           
+           const newPara = document.getElementById('section-1')
+
+           const p = document.createElement("p")
+
+           p.innerText = area
+
+           newPara.appendChild(p);
+
+           textarea.value = "";
+        })
+
+    </script>
+</body>
+</html>

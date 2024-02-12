@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="heading">Lorem ipsum dolor sit amet.</h1>
+
+    <input type="text" oncl id="input-field">
+
+    <button id="btn" disabled>delete</button>
+    
+</body>
+
+<script>
+
+    document.getElementById("input-field").addEventListener("keyup", function (event){
+
+        const text = event.target.value;
+        const button = document.getElementById("btn")
+
+        if(text === "delete"){
+            button.removeAttribute("disabled")
+        }
+        else{
+            button.setAttribute("disabled")
+        }
+    })
+
+    document.getElementById("btn").addEventListener("click", function(){
+        const hide = document.getElementById("heading")
+
+        hide.style.display="none"
+    })
+
+
+</script>
+
+
+</html>
